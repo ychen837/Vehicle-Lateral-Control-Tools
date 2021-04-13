@@ -1,8 +1,12 @@
 # Vehicle-Lateral-Control-Tools
 My MATLAB toolbox for vehicle lateral controller design.
 This project is work in conjunction with Morgan Saras and Jennifer Maya Zapata. 
-The lateral dynamics of vehicles is modeled using the formulation in R.Rajamani 2006. 
-Different types of controllers are then designed and analyzed.
+The lateral dynamics of vehicles is modeled using the formulation in R.Rajamani 2006, then the system response is analyzed given various conditions.
+
+## Modules:
+1. pole_cl: pole placement design
+2. vans: velocity analysis, [y] = vans (Vx), return observed state y, take longtitudinal velocity Vx as input
+3. vedy: model of vehicle dynamics
 
 ## Parameters:
 1. Caf: Front tire stiffness
